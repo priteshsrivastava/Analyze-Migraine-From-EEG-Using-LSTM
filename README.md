@@ -1,7 +1,10 @@
 # Analyze-Migraine-From-EEG-Using-LSTM
 The raw signals received from non-invasive EEG devices are being used for diagnosis of migraine. Two major steps are:
+
 a. Preprocessing: Raw EEG signals are filtered and clean using EEGLab tool.
+
 b. Feature Extraction and classification: Using Deep Learning-based LSTM variants, quantitative information are extracted from EEG in order to classify migraine patients and healthy individuals. 
+
 ![image](https://user-images.githubusercontent.com/50692430/119967035-91c6f900-bfc9-11eb-8c14-9599e2c076de.png)
 
 In the project, we are using publically available dataset “Ultra high-density EEG recording of interictal migraine and Controls” as original dataset.
@@ -17,7 +20,9 @@ Required library/software:
 EEG Dataset
 -------------
 •	URL: https://kilthub.cmu.edu/articles/dataset/Ultra_high-density_EEG_recording_of_interictal_migraine_and_controls_sensory_and_rest/12636731?file=23891231
-•	Data recorded at 512 Hz frequency
+
+• Data recorded at 512 Hz frequency
+
 •	Duration: 3 seconds x multiple rounds
 
 Preprocessing:
