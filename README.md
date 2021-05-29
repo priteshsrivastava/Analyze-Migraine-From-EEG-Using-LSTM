@@ -27,7 +27,7 @@ EEG Dataset
 
 Preprocessing:
 --------------
-A standard sequence to process raw datasets using EEGLab software are gven as:
+A standard sequence to process raw datasets using EEGLab software can be given as:
 1. Look up channel locations using the Edit → Channel locations menu item.
 2. High-pass filter the data using the Tools → Filter the data → Basic FIR filter menu item. Filter the signals between 0.1-100Hz using basic FIR filter. Select Channel type: EEG.
 3. Perform automated artifact rejection using the Tools → Reject data using Clean Rawdata and ASR menu item. Uncheck 'Remove bad channels' to maintain data of all 143 channels. Also uncheck ASR bad burst correction since it takes lot of time. Select only additional removal of bad data.
